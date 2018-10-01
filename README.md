@@ -11,6 +11,7 @@ Run
 ```shell-session
 # apt install texlive texlive-lang-french texlive-latex-extra
 ```
+
 ### Configuration to compile on a distant machine (optional)
 
 Because a TeX Live distribution can be quite big, you may want to install it on a distant machine, and compile your document on it. Then you can mount the distant directory of the project.
