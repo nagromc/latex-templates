@@ -1,5 +1,5 @@
-This letter should come with a file `my-contact.ins`. Copy `my-contact.ins.template` and change it. Or decrypt `my-contact.ins.asc` with
+This letter should come with a file `lettre-my-contact.cfg`. Copy `lettre-my-contact.cfg.template` and change it. Or decrypt `lettre-my-contact.cfg.asc` with
 
 ```shell-session
-$ gpg --output my-contact.ins --decrypt my-contact.ins.asc
+$ gpg --output lettre-my-contact.cfg --decrypt lettre-my-contact.cfg.asc
 ```
