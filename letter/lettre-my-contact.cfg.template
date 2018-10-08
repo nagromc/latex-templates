@@ -1,6 +1,6 @@
 % my contact information
-\name{}
-\address{}
-\telephone{}
-\email{}
+\name{John Doe}
+\address{123 rue de la gare\\59000 LILLE}
+\telephone{+336~12~23~34~45}
+\email{john@example.org}
 \nofax
