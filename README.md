@@ -14,9 +14,15 @@ Run
 
 ### Windows
 
-[Chocolatey](https://chocolatey.org/) needs to be installed. Then, run:
+#### Scoop
 
-```shell-session
+```shell
+$ scoop install latex
+```
+
+#### Chocolatey
+
+```shell
 # choco install miktex
 ```
 
