@@ -5,6 +5,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage{tgpagella}
+\usepackage{numprint}
 
 \begin{document}
 \institut{my-contact}
@@ -19,15 +20,19 @@
 % optional ; by default, this is filled with the date of build
 \date{October 21, 2015}
 
-\conc{That awesome subject}
+\conc{That awesome subject\\
+ref: 1337}
 \opening{Hi bro,}
 
-I wrote this letter without even holding a pencil.
+I wrote this letter without even holding a \numprint{1000}~€ pencil.
 
 \closing{c ya}
 
 % optional post-scriptum
 \ps{PS:}{Cool, huh?}
+
+% optional attachements
+\encl{The Flux Capacitor blueprint}
 
 \end{letter}
 \end{document}
